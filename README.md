@@ -21,7 +21,7 @@ Bienvenido al repositorio de prácticas y laboratorio experimental de desarrollo
 
 El propósito central de este repositorio es dominar la arquitectura interna del microcontrolador a bajo nivel (**Bare-Metal**), profundizando en la manipulación directa de registros de hardware (*Direct Register Access*), el mapeo de memoria en C (*CMSIS Structure Mapping*), el control fino de buses y periféricos (RCC, GPIO, TIM, ADC, EXTI, 1-Wire, USART), así como la integración con sistemas operativos de tiempo real (**FreeRTOS / CMSIS-RTOS v2**).
 
-> 💡 **Living Repository**: Este repositorio se encuentra en **aprendizaje y desarrollo constante**. Nuevos módulos, controladores periféricos bare-metal, experimentos de temporización y arquitecturas multihilo se incorporan y actualizan periódicamente.
+> 💡 **Living Repository**: Este repositorio se encuentra  **activo y  en desarrollo constante**. Nuevos módulos, controladores periféricos bare-metal, experimentos de temporización y arquitecturas multihilo se incorporan y actualizan periódicamente.
 
 ### 🇬🇧 English
 Welcome to the hands-on practice repository and experimental embedded development laboratory for the **STM32** platform (specifically targeting the **STM32F446RE** family on the **NUCLEO-F446RE** development board).

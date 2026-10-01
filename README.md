@@ -1,7 +1,7 @@
 # ⚡ STM32 Embedded Systems & Bare-Metal Laboratory
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/master/Resources/ST_Cube_Banner.png" alt="STM32 Banner" width="850"/>
+  <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/main/icons/stmicroelectronics.png" alt="STMicroelectronics" width="220"/>
 </p>
 
 <p align="center">
@@ -22,6 +22,14 @@ Bienvenido al repositorio de prácticas y laboratorio experimental de desarrollo
 El propósito central de este repositorio es dominar la arquitectura interna del microcontrolador a bajo nivel (**Bare-Metal**), profundizando en la manipulación directa de registros de hardware (*Direct Register Access*), el mapeo de memoria en C (*CMSIS Structure Mapping*), el control fino de buses y periféricos (RCC, GPIO, TIM, ADC, EXTI, 1-Wire, USART), así como la integración con sistemas operativos de tiempo real (**FreeRTOS / CMSIS-RTOS v2**).
 
 > 💡 **Living Repository**: Este repositorio se encuentra en **aprendizaje y desarrollo constante**. Nuevos módulos, controladores periféricos bare-metal, experimentos de temporización y arquitecturas multihilo se incorporan y actualizan periódicamente.
+
+### 🇬🇧 English
+Welcome to the hands-on practice repository and experimental embedded development laboratory for the **STM32** platform (specifically targeting the **STM32F446RE** family on the **NUCLEO-F446RE** development board).
+
+The core objective of this repository is to master low-level microcontroller architecture (**Bare-Metal**), focusing on Direct Register Access, CMSIS Structure Mapping, fine-grained bus and peripheral control (RCC, GPIO, TIM, ADC, EXTI, 1-Wire, USART), as well as integration with real-time operating systems (**FreeRTOS / CMSIS-RTOS v2**).
+
+> 💡 **Living Repository**: This repository is under **active development and continuous learning**. New modules, bare-metal peripheral drivers, hardware timing experiments, and multithreaded architectures are periodically implemented and updated.
+
 
 ---
 
@@ -191,28 +199,9 @@ A continuación se detalla cada uno de los proyectos implementados en el reposit
    - Presionar `Ctrl + B` para compilar (Build).
    - Presionar `F11` para iniciar la sesión de depuración (Debug) o el botón `Run` para cargar el firmware directamente.
 
----
-
-## 🗺️ Hoja de Ruta / Continuous Learning Roadmap
-
-- [x] Control de GPIO y periféricos por manipulación directa de registros (*Bare-Metal*).
-- [x] Mapeo de memoria y tipado de registros estilo CMSIS.
-- [x] Interrupciones externas (EXTI + NVIC) y cronometraje de microsegundos con Timers de hardware.
-- [x] Generación de PWM por registros para servomotores y lectura analógica ADC de 12 bits.
-- [x] Protocolos de tiempo crítico por registros (1-Wire DS18B20, sensor ultrasónico HC-SR04).
-- [x] Primitivas de sincronización y colas de mensajes en FreeRTOS / CMSIS-RTOS v2.
-- [ ] *Próximamente*: Comunicación serie SPI y I2C bare-metal con memoria EEPROM y pantallas OLED.
-- [ ] *Próximamente*: Transferencias de alta velocidad con controlador DMA (Direct Memory Access).
-- [ ] *Próximamente*: Modos de bajo consumo (Sleep, Stop, Standby) y reloj RTC con registros PWR/RCC.
-
----
-
 ## 👤 Autor y Contacto
 
 - **Desarrollador**: [DanyGhostt](https://github.com/DanyGhostt)
 - **Repositorio**: [https://github.com/DanyGhostt/stm32-embedded-practice](https://github.com/DanyGhostt/stm32-embedded-practice)
 - **Licencia**: Este repositorio se distribuye bajo la licencia MIT.
 
-<p align="center">
-  <sub>Desarrollado con dedicación y pasión por la ingeniería de sistemas embebidos en silicio STM32.</sub>
-</p>

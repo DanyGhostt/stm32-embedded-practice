@@ -1,0 +1,38 @@
+# ==============================================================================
+# STM32CubeIDE / Eclipse Embedded C/C++ Git Ignore Configuration
+# ==============================================================================
+
+# Build Output Directories
+Debug/
+Release/
+build/
+bin/
+obj/
+FreeRTOS-LTS/
+*.log
+
+# Compiler Artifacts & Objects
+*.o
+*.obj
+*.d
+*.su
+*.map
+*.elf
+*.hex
+*.bin
+*.list
+*.srec
+*.s19
+*.axf
+
+# Eclipse & STM32CubeIDE Temp Files
+.metadata/
+*.bak
+*~
+*.orig
+*.launch
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+desktop.ini

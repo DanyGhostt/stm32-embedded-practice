@@ -205,10 +205,5 @@ El microcontrolador organiza su espacio de direccionamiento de 4 GB de acuerdo c
 - **Depuración / Debugger**: ST-LINK/V2-1 on-board
 - **Terminal Serial**: PuTTY, Tera Term, STM32CubeIDE Serial Monitor @ 115200 bps (8-N-1)
 
----
 
-## 🚀 Guía de Uso / How to Build & Run
-
-### 🇪🇸 Español
-1. **Clonar el repositorio**:
    ```bash
